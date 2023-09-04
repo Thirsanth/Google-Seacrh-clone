@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+ 
+}
+#image,#advanced,#search{
+    font-size: 13px;
+    padding: 5px;
+    margin:10px;
+    text-decoration: none;
+    color: #000000DE;
+}
+#image:hover,#advanced:hover,#search:hover{
+    text-decoration: underline;
+
+}
+
+.logo{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 210px;
+
+}
+.logo-advanced{
+    position: absolute;
+}
+#google-advanced-logo{
+    width:150px;
+    text-align: left;
+    margin-top:-80px;
+}
+#googlelogo{
+width: 300px;
+}
+#advanceddesc{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size:25px;
+    color:#d93025 ;
+}
+#googlelogodesc{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#horizontal-line{
+    margin-top: 100px;
+    color:rgba(0, 0, 0,);
+    opacity: 0.5;
+}
+
+.googlelogodesc{
+    position: absolute;
+    margin-top:-38px;
+    margin-left: 850px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.search-input-submit{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+#search-bar{
+    font-size: 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width:450px;
+    height: 30px;
+    margin-top: 6px;
+    margin: 5px;
+    padding: 5px 8px 2px 14px;
+}
+#search-bar:focus{
+    outline: none;
+}
+#search-button,#search-imfl{
+    font-size: 14px;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    height: 36px;
+    background-color:#F8F9FA;
+    color:#3c4043;
+    width: fit-content;
+    margin: 11px 4px;
+    padding:0 16px;
+}
+#search-button:hover,#search-imfl:hover,#advanced-search-submit-btn:hover{
+    cursor: pointer;
+}
+.advanced-search-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    margin-top:30px;
+    margin-left: 30px;
+}
+.advanced-search-form {
+    display: flex; 
+    flex-direction: column;
+}
+.advanced-search-form label{
+    display: inline-block;
+    width:250px;
+    text-align: left;
+}
+.text-box-input{
+    margin-top: 20px;
+    text-align: left;
+    padding: 1px 8px;
+    width: 40%;
+    height:25px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    border-radius: 1px;
+}
+.text-box-input:focus{
+    outline: none;
+    border-color: #3079ed;
+
+}
+.advanced-submit-btn{
+    margin-left: 750px;
+    margin-top: 20px;
+}
+#advanced-search-submit-btn{
+    padding: 10px;
+    width: fit-content;
+    background-color: #4D90FE;
+    outline: none;
+    color: white;
+    border: 1px solid #3079ed;
+  
+}
